@@ -31,6 +31,8 @@
     -ms-flex: 1;
     flex: 1;
     padding: 20px; 
+    font-size: 20px;
+    line-height: 1.2px;
   }
   
 
@@ -68,6 +70,8 @@ a:link {
     flex: 3;
     border: purple 3px solid;
     padding: 10px;
+    font-size: 20px;
+    line-height: 1.2px;
   }
   
   /* Style the footer */
