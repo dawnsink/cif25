@@ -6,4 +6,4 @@ window.setInterval(function(){
    'background-color' : 'hsl(' + randomH + ', 100%, 70%)'
   });
   
-  }, 1000);
+  }, 10000);
