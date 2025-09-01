@@ -7,29 +7,8 @@
     font-family: Helvetica, sans-serif;
     background-color: #0015FF;
     color: white;
-  
-    
   }
-  
-  a:link {
-    color: white;
-  }
-  /* visited link */
-  a:visited {
-    color: lightskyblue;
-    font-style: italic;
-  }
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-    font-style: italic;
-  }
-  /* selected link */
-  a:active {
-    color: hotpink;
-    font-style: italic;
-  }
-  
+
   /* Style the header */
   header {
     padding: 30px;
@@ -50,6 +29,28 @@
     flex: 1;
       padding: 20px;
   }
+  
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  /* visited link */
+  a:visited {
+    color: lightskyblue;
+    font-style: italic;
+  }
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    font-style: italic;
+  }
+  /* selected link */
+  a:active {
+    color: hotpink;
+    font-style: italic;
+  }
+
   
   /* Style the list inside the menu */
   nav ul {
