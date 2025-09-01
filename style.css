@@ -18,14 +18,14 @@
   
   /* Container for flexboxes */
   section {
-    display: -webkit-flex;
+    /* display: -webkit-flex; */
     display: flex;
   }
   
   /* Style the navigation menu */
   nav {
-    -webkit-flex: 1;
-    -ms-flex: 1;
+    /* -webkit-flex: 1;
+    -ms-flex: 1; */
     flex: 1;
     padding: 20px; 
   }
@@ -60,8 +60,8 @@ a:link {
   
   /* Style the content */
   article {
-    -webkit-flex: 3;
-    -ms-flex: 3;
+    /* -webkit-flex: 3;
+    -ms-flex: 3; */
     flex: 3;
     border: purple 3px solid;
     padding: 10px;
@@ -76,7 +76,7 @@ a:link {
   /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
   @media (max-width: 600px) {
     section {
-      -webkit-flex-direction: column;
+      /* -webkit-flex-direction: column; */
       flex-direction: column;
     }
     body {
