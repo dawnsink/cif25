@@ -63,7 +63,6 @@ a:link {
     /* -webkit-flex: 3;
     -ms-flex: 3; */
     flex: 3;
-    border: purple 3px solid;
     padding: 10px;
   }
   
