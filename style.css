@@ -10,43 +10,58 @@
 
   /* Style the header */
   header {
-    padding: 30px;
+    padding: 10px;
+    font-size: 42px;
     text-align: left;
-    font-size: 28px;
+    text-transform: uppercase;
   }
   
+  .outlined-text {
+    -webkit-text-stroke-width: 1.5px; /* Adjust stroke width as needed */
+    -webkit-text-stroke-color: #000; /* Set stroke color */
+    -webkit-text-fill-color: transparent; /* Makes the text fill transparent */
+    color: #000; /* Fallback for browsers that don't support -webkit-text-fill-color */
+  }
+  
+  a.special:link {text-decoration:none;}
+  a.special:visited {text-decoration:none;}
+  a.special:hover {text-decoration:none;}
+
   /* Container for flexboxes */
   section {
-    /* display: -webkit-flex; */
     display: flex;
   }
   
   /* Style the navigation menu */
   nav {
-    /* -webkit-flex: 1;
-    -ms-flex: 1; */
     flex: 1;
     padding: 20px; 
+    line-height: 170%;
+    font-size: 20px;
   }
   
 
 /* unvisited link */
 a:link {
     color: black;
+    /* text-decoration: none; */
   }
   /* visited link */
   a:visited {
-    color: lightskyblue;
+    color: black;
+    background-color: #e7fa42;
     font-style: italic;
   }
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: black;
+    background-color: #e7fa42;
     font-style: italic;
   }
   /* selected link */
   a:active {
-    color: hotpink;
+    color: black;
+    background-color: #e7fa42;
     font-style: italic;
   }
 
@@ -59,22 +74,23 @@ a:link {
   
   /* Style the content */
   article {
-    /* -webkit-flex: 3;
-    -ms-flex: 3; */
     flex: 3;
     padding: 10px;
+    font-size: 20px;
+    line-height: 140%;
   }
   
   /* Style the footer */
   footer {
-    padding: 20px; 
+    padding: 10px; 
     text-align: left;
+    font-size: 12px;
+    font-style: italic;
   }
   
   /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
   @media (max-width: 600px) {
     section {
-      /* -webkit-flex-direction: column; */
       flex-direction: column;
     }
     body {
@@ -84,7 +100,7 @@ a:link {
     header {
         padding: 20px;
         text-align: left;
-        font-size: 22px;
+        font-size: 20px;
       }
 
   }
