@@ -17,8 +17,8 @@ $(document).mousemove(function(event) {
   // Style the circle
   $circle.css({
       'position': 'absolute',
-      'width': '20px',
-      'height': '20px',
+      'width': '10px',
+      'height': '10px',
       'border': '1px solid black',
       'border-radius': '50%',
       'top': event.pageY - 10 + 'px', // Center the circle on the cursor
