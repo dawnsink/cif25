@@ -7,6 +7,25 @@
     <title>CIF25 Class Hub: Info</title>
     <style>
         @import url('style.css');  
+
+   * {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}     
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -54,7 +73,27 @@
           
           <span><a href="#" target="_blank">Audrey</a></span>
           <span><a href="#" target="_blank">Jocelyn</a></span>   
-          <span><a href="#" target="_blank">Melody</a></span>    
+          <span><a href="#" target="_blank">Melody</a></span> 
+          
+          <div class="row">
+  <div class="column">
+    <h2>Unit 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column">
+    <h2>Unit 2</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column">
+    <h2>Unit 3</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column">
+    <h2>Unit 4</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+</div>
           
         </article>
       </section>
