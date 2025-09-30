@@ -9,3 +9,13 @@ h1{
     font-size: 120px;
     font-style: italic;
 }
+
+H3 {
+  font-family: Rubik, sans-serif;
+  font-size: 36px;
+}
+
+.poem {
+  font-family: Spectral, serif;
+  font-size: 46px;
+}
