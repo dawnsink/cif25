@@ -19,3 +19,22 @@ H3 {
   font-family: Spectral, serif;
   font-size: 46px;
 }
+
+
+/* 4 different states for the same link: unvisited, vistited, hover and acitve */
+/* unvisited link  */
+a:link {
+  color: green;
+}
+/* visited link */
+a:visited {
+  color: rgb(218, 20, 169);
+}
+/* mouse over link */
+a:hover {
+  color: red;
+}
+/* selected link */
+a:active {
+  color: yellow;
+}
