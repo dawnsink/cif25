@@ -1,0 +1,23 @@
+body {
+      font-family: Helvetica, sans-serif;
+      margin: 20px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+      grid-gap: 15px;
+    }
+    .grid-item {
+      background-color: #73de77;
+      color: white;
+      padding: 20px;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    /* Media Query for screens 650px or smaller */
+    @media (max-width: 650px) {
+      .grid-container {
+        grid-template-columns: 1fr; /* single column */
+      }
+    }
